@@ -20,6 +20,7 @@ function App() {
           <Route exact path="/signup" element={<SignUp/>} />
         </Routes>
         <Footer />
+      <Home />
       </Router>
       
     </>
