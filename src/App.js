@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
@@ -19,7 +19,6 @@ function App() {
           <Route exact path="/products" element={<Products/>} />
           <Route exact path="/signup" element={<SignUp/>} />
         </Routes>
-        <Home />
         <Footer />
       </Router>
       
